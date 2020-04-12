@@ -14,7 +14,7 @@ function NaviBar() {
 
         <Button color="default"><Link to="/" className='text-link'>UMass ACM</Link></Button>
 
-        <ul>
+        <ul className="menu">
           <Button color="default"><Link to="/" className='text-link'>Home</Link></Button>
           <Button color="default"><Link to="/events" className='text-link'>Events</Link></Button>
           <Button color="default"><Link to="/sigs" className='text-link'>SIGs</Link></Button>
@@ -30,7 +30,5 @@ function NaviBar() {
     </div>
   );
 }
-
-
 
 export default NaviBar;

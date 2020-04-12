@@ -5,6 +5,11 @@ import Events from './Events';
 import About from './About';
 import Join from './Join';
 import Sigs from './Sigs';
+import ICPC from './sigs/ICPC';
+import ML from './sigs/ML';
+import Blockchain from './sigs/Blockchain';
+import Gamedev from './sigs/Gamedev';
+import Design from './sigs/Design';
 
 import {
   BrowserRouter as Router,
@@ -27,6 +32,21 @@ function App() {
             </Route>
             <Route path="/sigs">
               <Sigs />
+            </Route>
+            <Route path="/icpc">
+              <ICPC />
+            </Route>
+            <Route path="/machinelearning">
+              <ML />
+            </Route>
+            <Route path="/blockchain">
+              <Blockchain />
+            </Route>
+            <Route path="/gamedevelopment">
+              <Gamedev />
+            </Route>
+            <Route path="/design">
+              <Design />
             </Route>
             <Route path="/about">
               <About />

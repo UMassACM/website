@@ -1,5 +1,9 @@
 .NaviBar-navibar{
-    display: flex;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-direction: row;
+}
   
+.text-link{
+  color: inherit;
+  text-decoration: none; 
+}
