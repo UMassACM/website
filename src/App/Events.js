@@ -1,8 +1,8 @@
 import React from 'react';
-import './Events.css';
+import '../App.css';
 import NaviBar from './NaviBar';
 
-function Events() {
+function Events({ routes }) {
     return (
         <div className="Events">
             <NaviBar />

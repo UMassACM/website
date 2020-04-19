@@ -1,8 +1,9 @@
 import React from 'react';
-import './ICPC.css';
+import '../../App.css';
+
 import NaviBar from '../NaviBar';
 
-function ICPC() {
+function ICPC({ routes }) {
     return (
         <div className="ICPC">
             <NaviBar />

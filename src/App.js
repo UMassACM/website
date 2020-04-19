@@ -1,22 +1,23 @@
 import React from 'react';
+
 import './App.css';
-import Home from './Home';
-import Events from './Events';
-import About from './About';
-import Join from './Join';
-import Sigs from './Sigs';
-import ICPC from './sigs/ICPC';
-import ML from './sigs/ML';
-import Blockchain from './sigs/Blockchain';
-import Gamedev from './sigs/Gamedev';
-import Design from './sigs/Design';
+
+import Home from './App/Home';
+import Events from './App/Events';
+import About from './App/About';
+import Join from './App/Join';
+import Sigs from './App/Sigs';
+import ICPC from './App/sigs/ICPC';
+import ML from './App/sigs/ML';
+import Blockchain from './App/sigs/Blockchain';
+import Gamedev from './App/sigs/Gamedev';
+import Design from './App/sigs/Design';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-
 
 function App() {
   return (
@@ -27,26 +28,23 @@ function App() {
             <Route path="/events">
               <Events />
             </Route>
-            <Route path="/about">
-              <About />
+            <Route path={`/sigs/icpc`}>
+              <ICPC />
+            </Route>
+            <Route path="/sigs/machinelearning">
+              <ML />
+            </Route>
+            <Route path="/sigs/blockchain">
+              <Blockchain />
+            </Route>
+            <Route path="/sigs/gamedevelopment">
+              <Gamedev />
+            </Route>
+            <Route path="/sigs/design">
+              <Design />
             </Route>
             <Route path="/sigs">
               <Sigs />
-            </Route>
-            <Route path="/icpc">
-              <ICPC />
-            </Route>
-            <Route path="/machinelearning">
-              <ML />
-            </Route>
-            <Route path="/blockchain">
-              <Blockchain />
-            </Route>
-            <Route path="/gamedevelopment">
-              <Gamedev />
-            </Route>
-            <Route path="/design">
-              <Design />
             </Route>
             <Route path="/about">
               <About />
@@ -58,11 +56,9 @@ function App() {
               <Home />
             </Route>
           </Switch>
-        </div>  
+        </div>
       </Router>
     </div>
   );
 }
-
-
 export default App;

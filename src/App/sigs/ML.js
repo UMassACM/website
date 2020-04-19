@@ -1,5 +1,5 @@
 import React from 'react';
-import './ML.css';
+import '../../App.css';
 import NaviBar from '../NaviBar';
 
 function ML() {

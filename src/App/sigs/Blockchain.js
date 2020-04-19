@@ -1,8 +1,8 @@
 import React from 'react';
-import './Blockchain.css';
+import '../../App.css';
 import NaviBar from '../NaviBar';
 
-function Blockchain() {
+function Blockchain({ routes }) {
     return (
         <div className="Blockchain">
             <NaviBar />
@@ -12,7 +12,5 @@ function Blockchain() {
         </div>
     );
 }
-
-
 
 export default Blockchain;

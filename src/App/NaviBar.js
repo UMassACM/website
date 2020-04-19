@@ -1,5 +1,5 @@
 import React from 'react';
-import './NaviBar.css';
+import '../App.css';
 import { Button } from '@material-ui/core';
 
 import {

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Design.css';
+import '../../App.css';
 import NaviBar from '../NaviBar';
 
-function Design() {
+function Design({ routes }) {
     return (
         <div className="Design">
             <NaviBar />
@@ -12,7 +12,5 @@ function Design() {
         </div>
     );
 }
-
-
 
 export default Design;

@@ -1,0 +1,144 @@
+@media screen and (orientation: landscape) {
+  .bot-list-social {
+    flex-direction: row;
+  }
+  .sigs-group{
+    flex-direction: row;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .bot-list-social   {
+    flex-direction: column;
+  }
+  .sigs-group{
+    flex-direction: column;
+  }
+}
+
+.home-header-section {
+  background-image: url('./images/background.jpg');
+  background-size: cover;  
+
+  /* max-width: 100vw; */
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  
+  color: white; 
+} 
+
+.home-sigs-section{
+  background-color: #9a3030;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+
+.sigs-group{
+  display: flex;
+    align-items: center;
+}
+
+.sigs-item{
+  display: flex;
+  font-size: medium;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sigs-item-img{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  width:  12vw;
+  height: 12vw;
+}
+
+.home-companies-section{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #9a3030;
+}
+
+.companies-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.companies_img{
+  margin: 3vw;
+  width:  12vw;
+  height: 12vw;
+}
+
+.home-join-section{
+  background-color: #9a3030;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+}
+
+.home-text-link{
+  color: inherit;
+  text-decoration: none;
+  font-size: calc(7px + 2vmin);
+}
+
+.about-header{
+  background-color: #9a3030;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+
+} 
+
+.NaviBar-navibar{
+  display: flex;
+  flex-direction: row;
+}
+  
+.text-link{
+color: inherit;
+text-decoration: none; 
+}
+
+.bottom-bar-navibar{
+  display: flex;   
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+}
+
+.bot-list-social {
+  display: flex; 
+}
+
+.bottom-bar-text-link{
+  color: #9a3030; 
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  width:  12vw;
+}

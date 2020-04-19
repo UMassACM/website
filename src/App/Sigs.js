@@ -1,5 +1,4 @@
 import React from 'react';
-import './Sigs.css';
 import NaviBar from './NaviBar';
 
 function Sigs() {

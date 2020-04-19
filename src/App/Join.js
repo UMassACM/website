@@ -1,8 +1,8 @@
 import React from 'react';
-import './Join.css';
+import '../App.css';
 import NaviBar from './NaviBar';
 
-function Join() {
+function Join({ routes }) {
     return (
         <div className="Join">
             <NaviBar />

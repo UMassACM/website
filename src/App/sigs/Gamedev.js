@@ -1,8 +1,8 @@
 import React from 'react';
-import './Gamedev.css';
+import '../../App.css';
 import NaviBar from '../NaviBar';
 
-function Gamedev() {
+function Gamedev({ routes }) {
     return (
         <div className="Gamedev">
             <NaviBar />
