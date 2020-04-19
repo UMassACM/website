@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
-import NaviBar from '../NaviBar';
+import '../../../App.css';
+import NaviBar from '../../NaviBar';
 
-function Design({ routes }) {
+function Design() {
     return (
         <div className="Design">
             <NaviBar />

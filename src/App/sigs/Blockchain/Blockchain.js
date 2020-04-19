@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../App.css';
-import NaviBar from '../NaviBar';
+import '../../../App.css';
+import NaviBar from '../../NaviBar';
 
-function Blockchain({ routes }) {
+function Blockchain() {
     return (
         <div className="Blockchain">
             <NaviBar />

@@ -1,26 +1,24 @@
 @media screen and (orientation: landscape) {
-  .bot-list-social {
-    flex-direction: row;
-  }
-  .sigs-group{
+  .bot-list-social,.sigs-group, .icpc-leaders, .blockchain-leaders,.gamedev-leaders,.ml-leaders,.design-leaders, .leaders{
     flex-direction: row;
   }
 }
 
 @media screen and (orientation: portrait) {
-  .bot-list-social   {
+  .bot-list-social,.sigs-group, .icpc-leaders, .blockchain-leaders,.gamedev-leaders,.ml-leaders,.design-leaders, .leaders{
     flex-direction: column;
   }
-  .sigs-group{
-    flex-direction: column;
-  }
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: normal;
 }
 
 .home-header-section {
   background-image: url('./images/background.jpg');
   background-size: cover;  
+  background-position: 50% 50%;
 
-  /* max-width: 100vw; */
   min-height: 100vh;
 
   display: flex;
@@ -101,9 +99,8 @@
   font-size: calc(7px + 2vmin);
 }
 
-.about-header{
+.about-header-section{
   background-color: #9a3030;
-  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -113,6 +110,77 @@
   color: white; 
 
 } 
+
+.about-icpc-section{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #9a3030; 
+}
+
+.about-ml-section{
+  background-color: #9a3030;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:white; 
+}
+
+.about-design-section{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #9a3030; 
+}
+
+.about-gamedev-section{
+  background-color: #9a3030;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:white; 
+}
+
+.about-blockchain-section{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #9a3030; 
+}
+
+.picture-caption{
+  font-size: calc(5px + 1.5vmin);
+  text-align: center;
+  font-weight: light;
+  margin: 0%;
+}
+
+.picture-caption-holder{
+  display: flex;
+  flex-direction: column;
+}
+.icpc-leaders, .blockchain-leaders,.gamedev-leaders,.ml-leaders,.design-leaders,.leaders {
+  display: flex;
+}
+
+.icpc-leaders-img, .blockchain-leaders-img,.gamedev-leaders-img,.ml-leaders-img,.design-leaders-img,.leaders-img{
+  width:  calc(120px + 15vmin);
+}
 
 .NaviBar-navibar{
   display: flex;

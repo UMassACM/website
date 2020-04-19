@@ -8,12 +8,11 @@ import {
 } from "react-router-dom";
 import BotNaviBar from './BotNaviBar';
 
-function Home({ routes }) {
+function Home() {
   return (
     <div className="Home">
       <NaviBar />
       <header className="home-header-section">
-        <p data-rte-preserve-empty="true" style={{ 'white-space': 'pre-wrap' }}></p>
         <p data-rte-preserve-empty="true" style={{ 'white-space': 'pre-wrap' }}></p>
         <p data-rte-preserve-empty="true" style={{ 'white-space': 'pre-wrap' }}></p>
         <p data-rte-preserve-empty="true" style={{ 'white-space': 'pre-wrap' }}></p>
@@ -27,23 +26,23 @@ function Home({ routes }) {
 
         <List className="sigs-group">
           <List className="sigs-item">
-            <Link to="/sigs/icpc"><img className="sigs-item-img" src="./images/icpc.png" alt='icpc'></img></Link>
+            <Link to="/sigs/icpc"><img className="sigs-item-img" src="./images/ICPC/icpc.png" alt='icpc'></img></Link>
             <p>ACM ICPC</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/machinelearning"><img className="sigs-item-img" src="./images/ml.png" alt='machinelearning'></img></Link>
+            <Link to="/sigs/machinelearning"><img className="sigs-item-img" src="./images/ML/ml.png" alt='machinelearning'></img></Link>
             <p>ACM Machine Learning</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/blockchain"><img className="sigs-item-img" src="./images/blockchain.png" alt='blockchain'></img></Link>
+            <Link to="/sigs/blockchain"><img className="sigs-item-img" src="./images/Blockchain/blockchain.png" alt='blockchain'></img></Link>
             <p>ACM Blockchain</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/gamedevelopment"><img className="sigs-item-img" src="./images/gamedevelopment.png" alt='gamedevelopment'></img></Link>
+            <Link to="/sigs/gamedevelopment"><img className="sigs-item-img" src="./images/Gamedev/gamedevelopment.png" alt='gamedevelopment'></img></Link>
             <p>ACM Game Development</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/design"><img className="sigs-item-img" src="./images/design.png" alt='design'></img></Link>
+            <Link to="/sigs/design"><img className="sigs-item-img" src="./images/Design/design.png" alt='design'></img></Link>
             <p>ACM Design</p>
           </List>
         </List>
@@ -51,10 +50,10 @@ function Home({ routes }) {
       <section className="home-companies-section">
       <h2>Who we’ve worked with.</h2>
         <List className="companies-list">
-          <img class="companies_img" src="./images/facebook.png" alt='facebook'></img>
-          <img class="companies_img" src="./images/google.png" alt='google'></img>
-          <img class="companies_img" src="./images/cisco.png" alt='cisco'></img>
-          <img class="companies_img" src="./images/mathlab.png" alt='mathlab'></img>
+          <img class="companies_img" src="./images/Companies/facebook.png" alt='facebook'></img>
+          <img class="companies_img" src="./images/Companies/google.png" alt='google'></img>
+          <img class="companies_img" src="./images/Companies/cisco.png" alt='cisco'></img>
+          <img class="companies_img" src="./images/Companies/mathlab.png" alt='mathlab'></img>
         </List>
       </section>
       <section class="home-join-section">

@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../App.css';
+import '../../../App.css';
 
-import NaviBar from '../NaviBar';
+import NaviBar from '../../NaviBar';
 
 function ICPC({ routes }) {
     return (
