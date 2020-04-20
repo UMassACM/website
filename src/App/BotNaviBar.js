@@ -4,7 +4,6 @@ import { List } from '@material-ui/core';
 import { ListItem } from '@material-ui/core';
 
 function BotNaviBar() {
-
 	return (
 		<div className="BotNaviBar">
 			<div className="bottom-bar-navibar">
