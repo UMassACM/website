@@ -2,129 +2,57 @@ import React from 'react';
 import '../App.css';
 import NaviBar from './NaviBar';
 import BotNaviBar from './BotNaviBar';
-import ICPCLeaders from './sigs/ICPC/Leaders'
-import BlockchainLeaders from './sigs/Blockchain/Leaders'
-import GamedevLeaders from './sigs/Gamedev/Leaders'
-import DesignLeaders from './sigs/Design/Leaders'
-import MLLeaders from './sigs/ML/Leaders'
-import { List, ListItem } from '@material-ui/core'
+import {ICPCLeaders} from './sigs/ICPC'
+import {BlockchainLeaders} from './sigs/Blockchain'
+import {GamedevLeaders} from './sigs/Gamedev'
+import {DesignLeaders} from './sigs/Design'
+import {MLLeaders} from './sigs/ML'
+import {MaterialCards} from './sigs/CommonSig'
 
 function About() {
+	const leaders1 = [
+        {
+            imgLocation: "./images/Leaders/AyushKhandewal.png",
+            Name: "Ayush Khandewal",
+            Title: "Chair",
+        },
+        {
+            imgLocation: "./images/Leaders/SaakshatSingh.png",
+            Name: "Saakshat Singh",
+            Title: "Vice Chair",
+        },
+        {
+            imgLocation: "./images/Leaders/ShardoolParthak.png",
+            Name: "Shardool Parthak",
+            Title: "Secretary",
+		},
+		{
+            imgLocation: "./images/Leaders/ArielSimnegar.png",
+            Name: "Ariel Simnegar",
+            Title: "Treasurer",
+		},
+		{
+            imgLocation: "./images/Leaders/BenjaminXu.png",
+            Name: "Benjamin Xu",
+            Title: "Head of Web Development",
+		},
+		{
+            imgLocation: "./images/Leaders/AndrewDunhom.png",
+            Name: "Andrew Dunhom",
+            Title: "Head of Marketing Logistics",
+		},
+		{
+            imgLocation: "./images/Leaders/AayushiBerry.png",
+            Name: "Aayushi Berry",
+            Title: "Head of Marketing",
+        },
+    ]
 	return (
 		<div className="About">
 			<NaviBar />
 			<header className="about-header-section">
 				<h2>Our Leaders</h2>
-				<List className="leaders">
-
-					<ListItem>
-						<List>
-							<ListItem>
-								<img className="leaders-img"
-									src="./images/Leaders/AyushKhandewal.png" alt='Ayush Khandewal'></img>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Ayush Khandewal</p>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Chair</p>
-							</ListItem>
-						</List>
-					</ListItem>
-
-					<ListItem>
-						<List>
-							<ListItem>
-								<img className="leaders-img"
-									src="./images/Leaders/SaakshatSingh.png" alt='Saakshat Singh'></img>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Saakshat Singh</p>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Vice Chair</p>
-							</ListItem>
-						</List>
-					</ListItem>
-
-					<ListItem>
-						<List>
-							<ListItem>
-								<img className="leaders-img"
-									src="./images/Leaders/ShardoolParthak.png" alt='Shardool Parthak'></img>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Shardool Parthak</p>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Secretary</p>
-							</ListItem>
-						</List>
-					</ListItem>
-
-					<ListItem>
-						<List>
-							<ListItem>
-								<img className="leaders-img"
-									src="./images/Leaders/ArielSimnegar.png" alt='Ariel Simnegar'></img>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Ariel Simnegar</p>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Treasurer</p>
-							</ListItem>
-						</List>
-					</ListItem>
-				</List>
-
-				<List className="leaders">
-
-					<ListItem>
-						<List>
-							<ListItem>
-								<img className="leaders-img"
-									src="./images/Leaders/BenjaminXu.png" alt='Benjamin Xu'></img>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Benjamin Xu</p>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Head of Web Development</p>
-							</ListItem>
-						</List>
-					</ListItem>
-
-					<ListItem>
-						<List>
-							<ListItem>
-								<img className="leaders-img"
-									src="./images/Leaders/AndrewDunhom.png" alt='Andrew Dunhom'></img>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Andrew Dunhom</p>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Head of Marketing Logistics</p>
-							</ListItem>
-						</List>
-					</ListItem>
-
-					<ListItem>
-						<List>
-							<ListItem>
-								<img className="leaders-img"
-									src="./images/Leaders/AayushiBerry.png" alt='Aayushi Berry'></img>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Aayushi Berry</p>
-							</ListItem>
-							<ListItem className="picture-caption-holder">
-								<p className="picture-caption">Head of Marketing</p>
-							</ListItem>
-						</List>
-					</ListItem>
-				</List>
+				<MaterialCards leaders={leaders1}></MaterialCards>
 			</header>
 			<section className="about-icpc-section">
 				<h2>ICPC</h2>

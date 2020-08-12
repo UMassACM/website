@@ -3,15 +3,14 @@ import React from 'react';
 import './App.css';
 
 import Home from './App/Home';
-import Events from './App/Events';
 import About from './App/About';
 import Join from './App/Join';
 import Sigs from './App/Sigs';
-import ICPC from './App/sigs/ICPC/ICPC';
-import ML from './App/sigs/ML/ML';
-import Blockchain from './App/sigs/Blockchain/Blockchain';
-import Gamedev from './App/sigs/Gamedev/Gamedev';
-import Design from './App/sigs/Design/Design';
+import ICPC from './App/sigs/ICPC';
+import ML from './App/sigs/ML';
+import Blockchain from './App/sigs/Blockchain';
+import Gamedev from './App/sigs/Gamedev';
+import Design from './App/sigs/Design';
 
 import {
   BrowserRouter as Router,
@@ -25,9 +24,6 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route path="/events">
-              <Events />
-            </Route>
             <Route path={`/sigs/icpc`}>
               <ICPC />
             </Route>

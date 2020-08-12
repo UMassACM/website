@@ -1,222 +1,258 @@
 @media screen and (orientation: landscape) {
-  .bot-list-social,.sigs-group, .icpc-leaders, .blockchain-leaders,.gamedev-leaders,.ml-leaders,.design-leaders, .leaders{
-    flex-direction: row;
-  }
+    .bot-list-social,
+    .sigs-group,
+    .icpc-leaders,
+    .blockchain-leaders,
+    .gamedev-leaders,
+    .ml-leaders,
+    .design-leaders,
+    .leaders {
+        flex-direction: row;
+    }
 }
 
 @media screen and (orientation: portrait) {
-  .bot-list-social,group, .icpc-leaders, .blockchain-leaders,.gamedev-leaders,.ml-leaders,.design-leaders, .leaders{
-    flex-direction: column;
-  }
+    .bot-list-social,
+    group,
+    .icpc-leaders,
+    .blockchain-leaders,
+    .gamedev-leaders,
+    .ml-leaders,
+    .design-leaders,
+    .leaders {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 950px) {
-  .sigs-group{
-    flex-direction: row;
-  }
+    .sigs-group {
+        flex-direction: row;
+    }
+    container {
+        direction: row;
+    }
 }
+
 @media screen and (max-width: 950px) {
-  .sigs-group{
-    flex-direction: column;
-  }
+    .sigs-group {
+        flex-direction: column;
+    }
+    container {
+        direction: column;
+    }
 }
-h1,h2,h3,h4,h5,h6{
-  font-weight: normal;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
 }
 
 .home-header-section {
-  background-image: url('./images/background.jpg');
-  background-size: cover;  
-  background-position: 50% 50%;
-
-  min-height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  
-  color: white; 
-} 
-
-.home-sigs-section{
-  background-color: #9a3030;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; 
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.sigs-group{
-  display: flex;
-  align-items: center;
+.home-sigs-section {
+    background-color: #9a3030;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.sigs-item{
-  display: flex;
-  font-size: medium;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.sigs-group {
+    display: flex;
+    align-items: center;
 }
 
-.sigs-item-img{
-  margin-left: 3vw;
-  margin-right: 3vw;
-  width:  calc(20vmin);
+.sigs-item {
+    display: flex;
+    font-size: medium;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.home-companies-section{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #9a3030;
+.sigs-item-img {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: calc(20vmin);
 }
 
-.companies-list{
-  display: flex;
-  flex-direction: row;
+.home-companies-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #9a3030;
 }
 
-.companies_img{
-  margin: 3vw;
-  width:  12vw;
-  height: 12vw;
+.companies-list {
+    display: flex;
+    flex-direction: row;
 }
 
-.home-join-section{
-  background-color: #9a3030;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; 
+.companies_img {
+    margin: 3vw;
+    width: 12vw;
+    height: 12vw;
 }
 
-.home-text-link{
-  color: inherit;
-  text-decoration: none;
-  font-size: calc(7px + 2vmin);
+.home-join-section {
+    background-color: #9a3030;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
-.about-header-section{
-  background-color: #9a3030;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; 
-
-} 
-
-.about-icpc-section{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #9a3030; 
+.home-text-link {
+    color: inherit;
+    text-decoration: none;
+    font-size: calc(7px + 2vmin);
 }
 
-.about-ml-section{
-  background-color: #9a3030;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color:white; 
+.about-header-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #9a3030;
 }
 
-.about-design-section{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #9a3030; 
+.about-design-section, .about-gamedev-section, .about-blockchain-section , .about-ml-section, .about-icpc-section 
+ {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #9a3030;
 }
 
-.about-gamedev-section{
-  background-color: #9a3030;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color:white; 
+.picture-caption {
+    font-size: calc(5px + 1.5vmin);
+    text-align: center;
+    font-weight: light;
+    margin: 0%;
 }
 
-.about-blockchain-section{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #9a3030; 
+.picture-caption-holder {
+    display: flex;
+    flex-direction: column;
 }
 
-.picture-caption{
-  font-size: calc(5px + 1.5vmin);
-  text-align: center;
-  font-weight: light;
-  margin: 0%;
+.icpc-leaders,
+.blockchain-leaders,
+.gamedev-leaders,
+.ml-leaders,
+.design-leaders,
+.leaders {
+    display: flex;
 }
 
-.picture-caption-holder{
-  display: flex;
-  flex-direction: column;
+.icpc-leaders-img,
+.blockchain-leaders-img,
+.gamedev-leaders-img,
+.ml-leaders-img,
+.design-leaders-img,
+.leaders-img {
+    width: calc(120px + 15vmin);
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.icpc-leaders, .blockchain-leaders,.gamedev-leaders,.ml-leaders,.design-leaders,.leaders {
-  display: flex;
+.NaviBar-navibar {
+    display: flex;
+    flex-direction: row;
 }
 
-.icpc-leaders-img, .blockchain-leaders-img,.gamedev-leaders-img,.ml-leaders-img,.design-leaders-img,.leaders-img{
-  width: calc(120px + 15vmin);
+.text-link {
+    color: inherit;
+    text-decoration: none;
 }
 
-.NaviBar-navibar{
-  display: flex;
-  flex-direction: row;
-}
-  
-.text-link{
-color: inherit;
-text-decoration: none; 
-}
-
-.bottom-bar-navibar{
-  display: flex;   
-  align-items: center;
-  justify-content: center; 
-  text-align: center; 
+.bottom-bar-navibar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .bot-list-social {
-  display: flex; 
+    display: flex;
 }
 
-.bottom-bar-text-link{
-  color: #9a3030; 
-  text-decoration: none;
-  align-items: center;
-  text-align: center;
-  width:  calc(75px + 5vmin);
+.bottom-bar-text-link {
+    color: #9a3030;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    width: calc(75px + 5vmin);
+}
+
+.sigs-header {
+    background-color: #9a3030;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.sigs-header-text {
+    width:75%;
+}
+
+.sig-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #9a3030;
+}
+
+.sig-socialbar {
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sig-socialbar-heading {
+    text-align: center;
+}
+
+.Join {
+    background-color: #9a3030;
+    display: flex;
+    justify-content: center;
 }
