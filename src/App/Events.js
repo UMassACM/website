@@ -7,7 +7,7 @@ function Events({ routes }) {
         <div>
             <NaviBar />
             <div className="Calendar">
-                <iframe src="https://calendar.google.com/calendar/embed?src=e9c8osjdquidnatbj3asl9n28c%40group.calendar.google.com&ctz=America%2FNew_York" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <iframe src="https://calendar.google.com/calendar/embed?src=e9c8osjdquidnatbj3asl9n28c%40group.calendar.google.com&ctz=America%2FNew_York" width="1000" height="750" frameborder="0" scrolling="no"></iframe>
                 {/*<iframe src="https://calendar.google.com/calendar/embed?src=benjaminxu251%40gmail.com&ctz=America%2FNew_York" width="800" height="600" frameborder="0" scrolling="no"></iframe>*/}
             </div>
         </div>

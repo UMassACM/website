@@ -188,6 +188,7 @@ h6 {
 .NaviBar-navibar {
     display: flex;
     flex-direction: row;
+    color: white;
 }
 
 .text-link {
@@ -251,9 +252,8 @@ h6 {
     text-align: center;
 }
 
-.Join {
+.Join, .Calendar {
     background-color: #9a3030;
     display: flex;
     justify-content: center;
-    overflow-y: visible;
 }
