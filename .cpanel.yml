@@ -1,5 +1,3 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/umass/repositories/website
-    - /bin/cp ./src/index.js $DEPLOYPATH
