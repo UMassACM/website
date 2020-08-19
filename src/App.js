@@ -11,6 +11,8 @@ import ML from './App/sigs/ML';
 import Blockchain from './App/sigs/Blockchain';
 import Gamedev from './App/sigs/Gamedev';
 import Design from './App/sigs/Design';
+import Webdev from './App/sigs/Webdev';
+import Events from './App/Events'
 
 import {
   BrowserRouter as Router,
@@ -39,11 +41,17 @@ function App() {
             <Route path="/sigs/design">
               <Design />
             </Route>
+            <Route path="/sigs/webdevelopment">
+              <Webdev />
+            </Route>
             <Route path="/sigs">
               <Sigs />
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/events">
+              <Events />
             </Route>
             <Route path="/join">
               <Join />

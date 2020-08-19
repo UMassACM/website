@@ -37,10 +37,12 @@ function NaviBar() {
             <MenuItem component={Link} to="/sigs/machinelearning">Machine Learning</MenuItem>
             <MenuItem component={Link} to="/sigs/blockchain">Block Chain</MenuItem>
             <MenuItem component={Link} to="/sigs/gamedevelopment">Game Development</MenuItem>
+            <MenuItem component={Link} to="/sigs/webdevelopment">Web Development</MenuItem>
             <MenuItem component={Link} to="/sigs/design">Design</MenuItem>
             <MenuItem component={Link} to="/sigs/icpc">ICPC</MenuItem>
           </Menu>
           <Button color="default"><Link to="/about" className='text-link'>About</Link></Button>
+          <Button color="default"><Link to="/events" className='text-link'>Events</Link></Button>
           <Button color="default"><Link to="/join" className='text-link'>Join</Link></Button>
         </ul>
 

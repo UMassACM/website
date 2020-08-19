@@ -142,7 +142,7 @@ h6 {
     color: #9a3030;
 }
 
-.about-design-section, .about-gamedev-section, .about-blockchain-section , .about-ml-section, .about-icpc-section 
+.about-design-section, .about-gamedev-section, .about-blockchain-section , .about-ml-section, .about-icpc-section, .about-webdev-section 
  {
     min-height: 100vh;
     display: flex;
