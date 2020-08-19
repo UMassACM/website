@@ -255,4 +255,5 @@ h6 {
     background-color: #9a3030;
     display: flex;
     justify-content: center;
+    overflow-y: visible;
 }
