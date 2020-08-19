@@ -7,7 +7,6 @@ import {BlockchainLeaders} from './sigs/Blockchain'
 import {GamedevLeaders} from './sigs/Gamedev'
 import {DesignLeaders} from './sigs/Design'
 import {MLLeaders} from './sigs/ML'
-import {WebdevLeaders} from './sigs/Webdev'
 import {MaterialCards} from './sigs/CommonSig'
 
 function About() {
@@ -74,10 +73,6 @@ function About() {
 			<section className="about-blockchain-section">
 				<h2>Blockchain</h2>
 				<BlockchainLeaders />
-			</section>
-			<section className="about-webdev-section">
-				<h2>Web Development</h2>
-				<WebdevLeaders />
 			</section>
 			<BotNaviBar />
 		</div>

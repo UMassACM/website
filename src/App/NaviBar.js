@@ -25,7 +25,7 @@ function NaviBar() {
         <ul className="menu">
           <Button color="default"><Link to="/" className='text-link'>Home</Link></Button>
           <Button color="default" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-            SIG's
+            SIGs
           </Button>
           <Menu
             id="simple-menu"
@@ -37,7 +37,6 @@ function NaviBar() {
             <MenuItem component={Link} to="/sigs/machinelearning">Machine Learning</MenuItem>
             <MenuItem component={Link} to="/sigs/blockchain">Block Chain</MenuItem>
             <MenuItem component={Link} to="/sigs/gamedevelopment">Game Development</MenuItem>
-            <MenuItem component={Link} to="/sigs/webdevelopment">Web Development</MenuItem>
             <MenuItem component={Link} to="/sigs/design">Design</MenuItem>
             <MenuItem component={Link} to="/sigs/icpc">ICPC</MenuItem>
           </Menu>
