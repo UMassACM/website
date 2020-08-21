@@ -261,6 +261,10 @@ h6 {
 
 .Join, .Calendar {
     background-color: #9a3030;
+    height: 100vh;
     display: flex;
     justify-content: center;
+}
+.Calendar-iframe, .Join-iframe {
+    align-self: center;
 }
