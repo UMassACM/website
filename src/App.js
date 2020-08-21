@@ -5,7 +5,6 @@ import './App.css';
 import Home from './App/Home';
 import About from './App/About';
 import Join from './App/Join';
-import Sigs from './App/Sigs';
 import ICPC from './App/sigs/ICPC';
 import ML from './App/sigs/ML';
 import Blockchain from './App/sigs/Blockchain';
@@ -39,9 +38,6 @@ function App() {
             </Route>
             <Route path="/sigs/design">
               <Design />
-            </Route>
-            <Route path="/sigs">
-              <Sigs />
             </Route>
             <Route path="/about">
               <About />

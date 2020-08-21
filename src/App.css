@@ -108,11 +108,18 @@ h6 {
     display: flex;
     flex-direction: row;
 }
-
-.companies_img {
+.companies_img_container {
+    display: flex;
     margin: 3vw;
     width: 12vw;
     height: 12vw;
+    justify-content: center;
+}
+.companies_img {
+    flex:0 1 auto;
+    width: 100%;
+    height: auto;
+    align-self:center;
 }
 
 .home-join-section {

@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import NaviBar from './NaviBar';
 import { Button } from '@material-ui/core';
-import {List} from '@material-ui/core';
+import { List } from '@material-ui/core';
 import {
   Link
 } from "react-router-dom";
@@ -48,12 +48,20 @@ function Home() {
         </List>
       </section>
       <section className="home-companies-section">
-      <h2>Who we’ve worked with.</h2>
+        <h2>Who we’ve worked with.</h2>
         <List className="companies-list">
-          <img class="companies_img" src="./images/Companies/facebook.png" alt='facebook'></img>
-          <img class="companies_img" src="./images/Companies/google.png" alt='google'></img>
-          <img class="companies_img" src="./images/Companies/cisco.png" alt='cisco'></img>
-          <img class="companies_img" src="./images/Companies/mathlab.png" alt='mathlab'></img>
+          <div class="companies_img_container">
+            <img class="companies_img" src="./images/Companies/facebook.png" alt='facebook'></img>
+          </div>
+          <div class="companies_img_container">
+            <img class="companies_img" src="./images/Companies/google.png" alt='google'></img>
+          </div>
+          <div class="companies_img_container">
+            <img class="companies_img" src="./images/Companies/cisco.png" alt='cisco'></img>
+          </div>
+          <div class="companies_img_container">
+            <img class="companies_img" src="./images/Companies/mathlab.png" alt='mathlab'></img>
+          </div>
         </List>
       </section>
       <section class="home-join-section">
