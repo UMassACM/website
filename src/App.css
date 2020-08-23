@@ -261,11 +261,7 @@ h6 {
 
 .Join, .Calendar {
     background-color: #9a3030;
-    height: 100vh;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px; 
+    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
