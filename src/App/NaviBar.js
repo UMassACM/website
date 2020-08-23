@@ -20,10 +20,10 @@ function NaviBar() {
     <div className="NaviBar">
       <div className="NaviBar-navibar">
 
-        <Button color="default"><Link to="/" className='text-link'>UMass ACM</Link></Button>
+      <Link to="/" className='text-link'><Button color="default">UMass ACM</Button></Link>
 
         <ul className="menu">
-          <Button color="default"><Link to="/" className='text-link'>Home</Link></Button>
+        <Link to="/" className='text-link'><Button color="default">Home</Button></Link>
           <Button color="default" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
             SIGs
           </Button>
@@ -40,9 +40,9 @@ function NaviBar() {
             <MenuItem component={Link} to="/sigs/design">Design</MenuItem>
             <MenuItem component={Link} to="/sigs/icpc">ICPC</MenuItem>
           </Menu>
-          <Button color="default"><Link to="/about" className='text-link'>About</Link></Button>
-          <Button color="default"><Link to="/events" className='text-link'>Events</Link></Button>
-          <Button color="default"><Link to="/join" className='text-link'>Join</Link></Button>
+          <Link to="/about" className='text-link'><Button color="default">About</Button></Link>
+          <Link to="/events" className='text-link'><Button color="default">Events</Button></Link>
+          <Link to="/join" className='text-link'><Button color="default">Join</Button></Link>
         </ul>
 
       </div>
