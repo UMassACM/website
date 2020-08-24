@@ -26,23 +26,23 @@ function Home() {
 
         <List className="sigs-group">
           <List className="sigs-item">
-            <Link to="/sigs/icpc"><img className="sigs-item-img" src="./images/ICPC/icpc.png" alt='icpc'></img></Link>
+            <Link to="/icpc"><img className="sigs-item-img" src="./images/ICPC/icpc.png" alt='icpc'></img></Link>
             <p>ACM ICPC</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/machinelearning"><img className="sigs-item-img" src="./images/ML/ml.png" alt='machinelearning'></img></Link>
+            <Link to="/machinelearning"><img className="sigs-item-img" src="./images/ML/ml.png" alt='machinelearning'></img></Link>
             <p>ACM Machine Learning</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/blockchain"><img className="sigs-item-img" src="./images/Blockchain/blockchain.png" alt='blockchain'></img></Link>
+            <Link to="/blockchain"><img className="sigs-item-img" src="./images/Blockchain/blockchain.png" alt='blockchain'></img></Link>
             <p>ACM Blockchain</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/gamedevelopment"><img className="sigs-item-img" src="./images/Gamedev/gamedevelopment.png" alt='gamedevelopment'></img></Link>
+            <Link to="/gamedevelopment"><img className="sigs-item-img" src="./images/Gamedev/gamedevelopment.png" alt='gamedevelopment'></img></Link>
             <p>ACM Game Development</p>
           </List>
           <List className="sigs-item">
-            <Link to="/sigs/design"><img className="sigs-item-img" src="./images/Design/design.png" alt='design'></img></Link>
+            <Link to="/design"><img className="sigs-item-img" src="./images/Design/design.png" alt='design'></img></Link>
             <p>ACM Design</p>
           </List>
         </List>

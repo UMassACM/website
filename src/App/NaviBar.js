@@ -34,11 +34,11 @@ function NaviBar() {
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem component={Link} to="/sigs/machinelearning">Machine Learning</MenuItem>
-            <MenuItem component={Link} to="/sigs/blockchain">Block Chain</MenuItem>
-            <MenuItem component={Link} to="/sigs/gamedevelopment">Game Development</MenuItem>
-            <MenuItem component={Link} to="/sigs/design">Design</MenuItem>
-            <MenuItem component={Link} to="/sigs/icpc">ICPC</MenuItem>
+            <MenuItem component={Link} to="/machinelearning">Machine Learning</MenuItem>
+            <MenuItem component={Link} to="/blockchain">Block Chain</MenuItem>
+            <MenuItem component={Link} to="/gamedevelopment">Game Development</MenuItem>
+            <MenuItem component={Link} to="/design">Design</MenuItem>
+            <MenuItem component={Link} to="/icpc">ICPC</MenuItem>
           </Menu>
           <Button component={Link} to="/about" color="default">About</Button>
           <Button component={Link} to="/events" color="default">Events</Button>
