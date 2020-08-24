@@ -23,7 +23,7 @@ import {
 function App() {
   return (
     <div className="App">
-      <Router forceRefresh={true}>
+      <Router >
         <div>
           <Switch>
             <Route path={process.env.PUBLIC_URL + `/icpc`} component={ICPC}></Route>
