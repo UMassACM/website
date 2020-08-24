@@ -24,32 +24,17 @@ function App() {
       <Router>
         <div>
           <Switch>
-            <Route path={`/sigs/icpc`}>
-              <ICPC />
+            <Route path={process.env.PUBLIC_URL + `/sigs/icpc`} component={ICPC}></Route>
+            <Route path={process.env.PUBLIC_URL + "/sigs/machinelearning"} component={ML}></Route>
+            <Route path={process.env.PUBLIC_URL + "/sigs/blockchain"} component={Blockchain}></Route>
+            <Route path={process.env.PUBLIC_URL + "/sigs/gamedevelopment"} component={Gamedev}></Route>
+            <Route path={process.env.PUBLIC_URL + "/sigs/design"} component={Design}></Route>
+            <Route path={process.env.PUBLIC_URL + "/about"} component={About}></Route>
+            <Route path={process.env.PUBLIC_URL + "/events"} component={Events}>
             </Route>
-            <Route path="/sigs/machinelearning">
-              <ML />
+            <Route path={process.env.PUBLIC_URL + "/join"} component={Join}>
             </Route>
-            <Route path="/sigs/blockchain">
-              <Blockchain />
-            </Route>
-            <Route path="/sigs/gamedevelopment">
-              <Gamedev />
-            </Route>
-            <Route path="/sigs/design">
-              <Design />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/events">
-              <Events />
-            </Route>
-            <Route path="/join">
-              <Join />
-            </Route>
-            <Route path="/">
-              <Home />
+            <Route path={process.env.PUBLIC_URL + "/"} component={Home}>
             </Route>
           </Switch>
         </div>
