@@ -15,20 +15,22 @@ import Events from './App/Events'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
+  Route
 } from "react-router-dom";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router forceRefresh={true}>
         <div>
           <Switch>
-            <Route path={process.env.PUBLIC_URL + `/sigs/icpc`} component={ICPC}></Route>
-            <Route path={process.env.PUBLIC_URL + "/sigs/machinelearning"} component={ML}></Route>
-            <Route path={process.env.PUBLIC_URL + "/sigs/blockchain"} component={Blockchain}></Route>
-            <Route path={process.env.PUBLIC_URL + "/sigs/gamedevelopment"} component={Gamedev}></Route>
-            <Route path={process.env.PUBLIC_URL + "/sigs/design"} component={Design}></Route>
+            <Route path={process.env.PUBLIC_URL + `/icpc`} component={ICPC}></Route>
+            <Route path={process.env.PUBLIC_URL + "/machinelearning"} component={ML}></Route>
+            <Route path={process.env.PUBLIC_URL + "/blockchain"} component={Blockchain}></Route>
+            <Route path={process.env.PUBLIC_URL + "/gamedevelopment"} component={Gamedev}></Route>
+            <Route path={process.env.PUBLIC_URL + "/design"} component={Design}></Route>
             <Route path={process.env.PUBLIC_URL + "/about"} component={About}></Route>
             <Route path={process.env.PUBLIC_URL + "/events"} component={Events}>
             </Route>
