@@ -6,27 +6,27 @@ import BotNaviBar from '../BotNaviBar';
 function DesignLeaders() {
     const leaders1 = [
         {
-            imgLocation: "../images/Design/Leaders/DhruvVikramKrishna.png",
+            imgLocation: "../images/Design/Leaders/DhruvVikramKrishna.jpg",
             Name: "Dhruv Vikram Krishna",
             Title: "President",
         },
         {
-            imgLocation: "../images/Design/Leaders/TenzinIngsel.png",
+            imgLocation: "../images/Design/Leaders/TenzinIngsel.jpg",
             Name: "Tenzin Ingsel",
             Title: "Vice President",
         },
         {
-            imgLocation: "../images/Design/Leaders/GabyNugent.png",
+            imgLocation: "../images/Design/Leaders/GabyNugent.jpg",
             Name: "Gaby Nugent",
             Title: "Projects Chair",
         },
         {
-            imgLocation: "../images/Design/Leaders/AleahCremer.png",
+            imgLocation: "../images/Design/Leaders/AleahCremer.jpg",
             Name: "Aleah Cremer",
             Title: "Programs Chair",
         },
         {
-            imgLocation: "../images/Design/Leaders/RoshanShetty.png",
+            imgLocation: "../images/Design/Leaders/RoshanShetty.jpg",
             Name: "Roshan Shetty",
             Title: "Outreach Chair",
         },
