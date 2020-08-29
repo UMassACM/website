@@ -35,7 +35,7 @@ function NaviBar() {
             onClose={handleClose}
           >
             <MenuItem component={Link} to="/machinelearning">Machine Learning</MenuItem>
-            <MenuItem component={Link} to="/blockchain">Block Chain</MenuItem>
+            <MenuItem component={Link} to="/blockchain">Blockchain</MenuItem>
             <MenuItem component={Link} to="/gamedevelopment">Game Development</MenuItem>
             <MenuItem component={Link} to="/design">Design</MenuItem>
             <MenuItem component={Link} to="/icpc">ICPC</MenuItem>
