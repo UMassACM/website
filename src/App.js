@@ -1,26 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import Home from './App/Home';
+import About from './App/About';
+import Join from './App/Join';
+import ICPC from './App/sigs/ICPC';
+import ML from './App/sigs/ML';
+import Blockchain from './App/sigs/Blockchain';
+import Gamedev from './App/sigs/Gamedev';
+import Design from './App/sigs/Design';
+import Events from './App/Events'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router >
+        <div>
+          <Switch>
+            <Route path={process.env.PUBLIC_URL + `/icpc`} component={ICPC}></Route>
+            <Route path={process.env.PUBLIC_URL + "/machinelearning"} component={ML}></Route>
+            <Route path={process.env.PUBLIC_URL + "/blockchain"} component={Blockchain}></Route>
+            <Route path={process.env.PUBLIC_URL + "/gamedevelopment"} component={Gamedev}></Route>
+            <Route path={process.env.PUBLIC_URL + "/design"} component={Design}></Route>
+            <Route path={process.env.PUBLIC_URL + "/about"} component={About}></Route>
+            <Route path={process.env.PUBLIC_URL + "/events"} component={Events}>
+            </Route>
+            <Route path={process.env.PUBLIC_URL + "/join"} component={Join}>
+            </Route>
+            <Route path={process.env.PUBLIC_URL + "/"} component={Home}>
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 }
-
 export default App;
