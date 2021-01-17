@@ -36,26 +36,14 @@ export default function SIG({ sigData }) {
       <article>{sigData.description}</article>
 
       <h2>Officers</h2>
-      {sigData.officers.forEach((officer) => {
-        <OfficerCard>
-          <div className={utilStyles.card}>
-            <img href={officer.img} />
-            <h4>{officer.name}</h4>
-            {officer.title}
-          </div>
-        </OfficerCard>;
-      })}
+      {sigData.officers.map(({ img, name, title }) => (
+        <OfficerCard name={name} title={title} img={img} />
+      ))}
 
-      <h2>Contact</h2>
+      {/* <h2>Contact</h2>
       {Object.entries(sigData.contacts).map(([key, value]) => {
-          console.log(`${key} : ${value}`);
-        <OfficerCard>
-            <title>
-                {key}
-            </title>
-        {value}
-        </OfficerCard>
-      })}
+        return <a>{value}</a>;
+      })} */}
     </>
   );
 }
