@@ -11,7 +11,7 @@ export class GlobalLayout extends Component {
   render() {
     const { children } = this.props;
     return (
-      <div className={`${"layout"} ${styles.container}`}>
+      <div className="layout">
         <Head>
           <meta
             name="viewport"
