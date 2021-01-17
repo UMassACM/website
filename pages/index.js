@@ -36,6 +36,7 @@ export default function Home({ allSigsData }) {
         <section>
           <h3 className={styles.subtitle}>Special Interest Groups</h3>
           <div className={styles.grid}>
+
             {allSigsData.map(({ id, name }) => (
               <SIGCard key={id}>
                 <Link href={`/sigs/${id}`} className={utilStyles.card}>
@@ -43,6 +44,7 @@ export default function Home({ allSigsData }) {
                 </Link>
               </SIGCard>
             ))}
+            
           </div>
         </section>
       </main>
