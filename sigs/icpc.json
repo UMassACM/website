@@ -1,0 +1,14 @@
+{
+    "name": "ICPC",
+    "description": "We are a group of students who practice and compete in the ICPC and other competitive programming competitions!",
+    "officers": [
+        {
+            "name": "Sattwik Das",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        }
+    ],
+    "contacts": {
+        "discord": "https://discord.gg/hpgAHhX"
+    }
+}
