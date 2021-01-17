@@ -122,6 +122,6 @@ label.red {
 @media (max-width: 600px) {
   .grid {
     width: 100%;
-    flex-direction: row;
+    flex-direction: row; /*this property */
   }
 }
