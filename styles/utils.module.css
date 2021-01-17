@@ -1,3 +1,18 @@
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    color: rgb(89, 102, 116);
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+  
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    transition: color 0.05s ease, border-color 0.15s ease;
+  }
+  
+  .card:hover {
+    color: #9a3030;
+}
+
 .socialsFooter {
     flex-wrap: wrap-reverse;
     text-align: center;
