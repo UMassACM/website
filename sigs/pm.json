@@ -1,0 +1,30 @@
+{
+    "name": "Product Management",
+    "description": "Come talk about machine learning, data mining, and related fields.\n We are a group interested in exploring the practical implications and theoretical underpinnings of machine learning. Participants of all skill levels are encouraged to attend our meetings and get involved!",
+    "officers": [
+        {
+            "name": "Dhruv Keyal",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Disha Srivastava",
+            "title": "Vice President",
+            "img": "https://i.imgur.com/dsuir23.jpg"
+        },
+        {
+            "name": "Preetham Syamala",
+            "title": "Secretary",
+            "img": "https://i.imgur.com/dsuir23.jpg"
+        },
+        {
+            "name": "Maanas Pero",
+            "title": "Treasurer",
+            "img": "https://i.imgur.com/dsuir23.jpg"
+        }
+    ],
+    "contacts": {
+        "discord": "https://discord.gg/EyqDyXj",
+        "email": "umassacmml@gmail.com"
+    }
+}

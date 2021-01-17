@@ -1,0 +1,35 @@
+{
+    "name": "Design",
+    "description": "Come talk about machine learning, data mining, and related fields.\n We are a group interested in exploring the practical implications and theoretical underpinnings of machine learning. Participants of all skill levels are encouraged to attend our meetings and get involved!",
+    "officers": [
+        {
+            "name": "Dhruv Vikram Krishna",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Tenzin Ingsel",
+            "title": "Vice President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Aleah Cremer",
+            "title": "Programs Chair",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Gaby Nugent",
+            "title": "Projects Chair",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Roshan Shetty",
+            "title": "Outreach Chair",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        }
+    ],
+    "contacts": {
+        "discord": "https://discord.gg/EyqDyXj",
+        "email": "umassacmml@gmail.com"
+    }
+}
