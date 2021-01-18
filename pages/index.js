@@ -3,10 +3,22 @@ import Link from "next/link";
 
 import SIGCard from "../components/sigCard";
 
+import { getAllSigsData } from "../lib/sigs";
+
 import styles from "../styles/Home.module.css";
 import utilStyles from "../styles/utils.module.css";
 
-export default function Home() {
+export async function getStaticProps() {
+  const allSigsData = getAllSigsData();
+
+  return {
+    props: {
+      allSigsData,
+    },
+  };
+}
+
+export default function Home({ allSigsData }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -24,41 +36,15 @@ export default function Home() {
         <section>
           <h3 className={styles.subtitle}>Special Interest Groups</h3>
           <div className={styles.grid}>
-            <SIGCard key={'ml'}>
-              <Link href={`/sigs/ml`} className={utilStyles.card}>
-                Machine Learning
-              </Link>
-            </SIGCard>
 
-            <SIGCard key={'icpc'}>
-              <Link href={`/sigs/icpc`} className={utilStyles.card}>
-                ICPC
-              </Link>
-            </SIGCard>
-
-            <SIGCard key={'design'}>
-              <Link href={`/sigs/design`} className={utilStyles.card}>
-                Design
-              </Link>
-            </SIGCard>
-
-            <SIGCard key={'game_dev'}>
-              <Link href={`/sigs/game_dev`} className={utilStyles.card}>
-                Game Development
-              </Link>
-            </SIGCard>
-
-            <SIGCard key={'pm'}>
-              <Link href={`/sigs/pm`} className={utilStyles.card}>
-                Product Management
-              </Link>
-            </SIGCard>
-
-            <SIGCard key={'blockchain'}>
-              <Link href={`/sigs/blockchain`} className={utilStyles.card}>
-                Blockchain
-              </Link>
-            </SIGCard>
+            {allSigsData.map(({ id, name }) => (
+              <SIGCard key={id}>
+                <Link href={`/sigs/${id}`} className={utilStyles.card}>
+                  <a>{name}</a>
+                </Link>
+              </SIGCard>
+            ))}
+            
           </div>
         </section>
       </main>

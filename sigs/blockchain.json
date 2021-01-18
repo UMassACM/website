@@ -1,0 +1,30 @@
+{
+    "name": "Blockchain",
+    "description": "Come talk about machine learning, data mining, and related fields.\n We are a group interested in exploring the practical implications and theoretical underpinnings of machine learning. Participants of all skill levels are encouraged to attend our meetings and get involved!",
+    "officers": [
+        {
+            "name": "Daniel Cline",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Satvik Birudavolu",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Apurv Shah",
+            "title": "Vice President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Kalyan Maddieni",
+            "title": "Secretary",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        }
+    ],
+    "contacts": {
+        "discord": "https://discord.gg/EyqDyXj",
+        "email": "umassacmml@gmail.com"
+    }
+}
