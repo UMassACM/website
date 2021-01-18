@@ -2,7 +2,9 @@ import Head from "next/head";
 
 import utilStyles from "../../styles/utils.module.css";
 
-import Layout from "../../components/layout"
+import { Card } from "semantic-ui-react";
+
+import Layout from "../../components/layout";
 import OfficerCard from "../../components/officerCard";
 
 import { getAllSigsIds, getSigData } from "../../lib/sigs";
@@ -37,14 +39,20 @@ export default function SIG({ sigData }) {
       <article className={utilStyles.headingLg}>{sigData.description}</article>
 
       <h2 className={utilStyles.headingXl}>Officers</h2>
-      {sigData.officers.map(({ img, name, title }) => (
-        <OfficerCard name={name} title={title} img={img} />
-      ))}
+      <Card.Group className={utilStyles.cardContainer}>
+        {sigData.officers.map(({ img, name, title }) => (
+          <OfficerCard name={name} title={title} img={img} />
+        ))}
+      </Card.Group>
 
-      {/* <h2>Contact</h2>
+      <h2 className={utilStyles.headingXl}>Contact</h2>
       {Object.entries(sigData.contacts).map(([key, value]) => {
-        return <a>{value}</a>;
-      })} */}
+        return (
+          <a>
+            {key} : {value}
+          </a>
+        );
+      })}
     </Layout>
   );
 }
