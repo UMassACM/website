@@ -1,20 +1,33 @@
+import React, { useState } from "react";
+
 import Image from "next/image";
-import { Card } from "semantic-ui-react";
+import { Card, Button } from "semantic-ui-react";
 
 import styles from "../styles/utils.module.css";
 
-export default function OfficerCard({ name, title, img }) {
+export default function OfficerCard({ name, title, img, contacts }) {
+  const [style, setStyle] = useState({ display: "none" });
+
   return (
-    <Card key={img} className={styles.officerCard}>
+    <Card
+      key={img}
+      className={`${styles.officerCard} ${styles.invisibleParent}`}
+    >
       <Image
         src={img}
         alt={`Picture for ${name}`}
         width={300}
-        height={400}
+        height={300}
         quality={100}
-      />
-      <Card.Header className={styles.headingLg}>{title}</Card.Header>
-      <Card.Meta className={styles.headingMd}>{name}</Card.Meta>
+      ></Image>
+      <Card.Header
+        className={`${styles.headingLg} ${styles.centeredText} ${styles.umassColor}`}
+      >
+        {title}
+      </Card.Header>
+      <Card.Meta className={`${styles.headingMd} ${styles.centeredText}`}>
+        {name}
+      </Card.Meta>
     </Card>
   );
 }

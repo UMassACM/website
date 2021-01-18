@@ -1,5 +1,9 @@
 .umassColor {
-  color: #9a3030
+  color: #9a3030;
+}
+
+.blue {
+  color: rgb(47, 104, 143);
 }
 
 .centeredText {
@@ -54,7 +58,7 @@
 .cardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .sig_card {
@@ -78,14 +82,13 @@
   padding: 1.3rem;
   color: rgb(89, 102, 116);
   flex-direction: row;
-  border-radius: 20px;
 
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   transition: color 0.07s ease, border-color 0.15s ease;
 }
 
 .officerCard img {
-  border-radius: 15px;
+  border-radius: 100%;
 }
 
 .socialsFooter {
