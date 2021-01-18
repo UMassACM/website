@@ -1,9 +1,14 @@
 {
     "officers": [
         {
-            "name": "Saakshaat Singh",
+            "name": "Ayush Khandelwal",
             "title": "Chair",
-            "img": "https://i.imgur.com/KLDBEln.jpg"
+            "img": "https://i.imgur.com/XPiM7mV.png"
+        },
+        {
+            "name": "Saakshaat Singh",
+            "title": "Vice Chair",
+            "img": "https://i.imgur.com/YpCX4Aw.png"
         }
     ]
 }
