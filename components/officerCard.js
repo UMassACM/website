@@ -9,7 +9,7 @@ export default function OfficerCard({ name, title, img }) {
       <Image
         src={img}
         alt={`Picture for ${name}`}
-        width={250}
+        width={300}
         height={400}
         quality={100}
       />

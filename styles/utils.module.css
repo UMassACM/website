@@ -70,8 +70,8 @@
 }
 
 .officerCard {
-  margin: 2rem;
-  padding: 1.5rem;
+  margin: 1.5rem;
+  padding: 1.3rem;
   color: rgb(89, 102, 116);
   flex-direction: row;
   border-radius: 20px;
