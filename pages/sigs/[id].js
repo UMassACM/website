@@ -34,7 +34,7 @@ export default function SIG({ sigData }) {
         <title>{sigData.name}</title>
       </Head>
 
-      <h1 className={utilStyles.heading2Xl}>{sigData.name}</h1>
+      <h1 className={`${utilStyles.heading2Xl} ${utilStyles.umassColor}`}>{sigData.name}</h1>
 
       <article className={utilStyles.headingLg}>{sigData.description}</article>
 
