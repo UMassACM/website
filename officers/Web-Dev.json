@@ -1,0 +1,14 @@
+{
+    "officers": [
+        {
+            "name": "Benjamin Xu",
+            "title": "Head of Web Development",
+            "img": "https://i.imgur.com/prnQkc6.jpeg"
+        },
+        {
+            "name": "Govind Chandak",
+            "title": "Lead React Developer",
+            "img": "https://i.imgur.com/prnQkc6.jpeg"
+        }
+    ]
+}

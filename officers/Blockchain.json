@@ -1,0 +1,24 @@
+{
+    "officers": [
+        {
+            "name": "Daniel Cline",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Satvik Birudavolu",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Apurv Shah",
+            "title": "Vice President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Kalyan Maddieni",
+            "title": "Secretary",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        }
+    ]
+}
