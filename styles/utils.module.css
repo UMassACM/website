@@ -2,6 +2,10 @@
   color: #9a3030
 }
 
+.centeredText {
+  text-align: center;
+}
+
 .heading2Xl {
   margin: 0;
   line-height: 1.15;
