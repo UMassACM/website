@@ -1,3 +1,7 @@
+.umassColor {
+  color: #9a3030
+}
+
 .heading2Xl {
   margin: 0;
   line-height: 1.15;
@@ -44,8 +48,9 @@
 }
 
 .cardContainer {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
 }
 
 .sig_card {

@@ -9,8 +9,8 @@ export default function OfficerCard({ name, title, img }) {
       <Image
         src={img}
         alt={`Picture for ${name}`}
-        width={450}
-        height={700}
+        width={250}
+        height={400}
         quality={100}
       />
       <Card.Header className={styles.headingLg}>{title}</Card.Header>
