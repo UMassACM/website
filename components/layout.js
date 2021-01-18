@@ -7,7 +7,11 @@ import styles from "./layout.module.css";
 
 import { AnimatedSocialIcon } from "react-animated-social-icons";
 
-const siteTitle = "UMass ACM"
+const siteTitle = "UMass ACM";
+
+export default function Layout({ children, home, index }) {
+  return <div className={styles.container}>{children}</div>;
+}
 
 export class GlobalLayout extends Component {
   render() {

@@ -5,31 +5,31 @@
         {
             "name": "Dhruv Vikram Krishna",
             "title": "President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/uHqZ8nv.png"
         },
         {
             "name": "Tenzin Ingsel",
             "title": "Vice President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/R9iNfSq.png"
         },
         {
             "name": "Aleah Cremer",
             "title": "Programs Chair",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/Jv0tsWw.png"
         },
         {
             "name": "Gaby Nugent",
             "title": "Projects Chair",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/kHWIk5i.png"
         },
         {
             "name": "Roshan Shetty",
             "title": "Outreach Chair",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/U8S7O2N.png"
         }
     ],
     "contacts": {
-        "discord": "https://discord.gg/EyqDyXj",
-        "email": "umassacmml@gmail.com"
+        "Discord": "https://discord.gg/EyqDyXj",
+        "Email": "umassacmml@gmail.com"
     }
 }
