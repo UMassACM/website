@@ -1,0 +1,14 @@
+{
+    "officers": [
+        {
+            "name": "Cooper Sigrist",
+            "title": "President",
+            "img": "https://i.imgur.com/VyQK36D.jpg"
+        },
+        {
+            "name": "Dev Gupta",
+            "title": "Vice President",
+            "img": "https://i.imgur.com/prnQkc6.jpeg"
+        }
+    ]
+}

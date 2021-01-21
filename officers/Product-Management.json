@@ -1,6 +1,4 @@
 {
-    "name": "Product Management",
-    "description": "Come talk about machine learning, data mining, and related fields.\n We are a group interested in exploring the practical implications and theoretical underpinnings of machine learning. Participants of all skill levels are encouraged to attend our meetings and get involved!",
     "officers": [
         {
             "name": "Dhruv Keyal",
@@ -22,9 +20,5 @@
             "title": "Treasurer",
             "img": "https://i.imgur.com/dsuir23.jpg"
         }
-    ],
-    "contacts": {
-        "Discord": "https://discord.gg/EyqDyXj",
-        "Email": "umassacmml@gmail.com"
-    }
+    ]
 }

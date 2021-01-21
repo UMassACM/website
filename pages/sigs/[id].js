@@ -27,7 +27,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export default function SIG({ sigData }) {
+export default function SIGPage({ sigData }) {
   return (
     <Layout>
       <Head>
