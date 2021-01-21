@@ -12,7 +12,6 @@ import { getAllOfficerTeamsData } from "../../lib/officers";
 export async function getStaticProps() {
   const teamsData = await getAllOfficerTeamsData();
 
-  console.log(teamsData)
   return {
     props: {
       teamsData,
