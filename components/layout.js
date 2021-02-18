@@ -38,7 +38,7 @@ export class GlobalLayout extends Component {
           </Head>
           {children}
           <Footer>
-            <AnimatedSocialIcon 
+            <AnimatedSocialIcon
               brandName="linkedin"
               url="http://linkedin.com/company/umass-acm/"
               animation="float"
@@ -81,12 +81,19 @@ export class GlobalLayout extends Component {
           </Footer>
         </div>
         <div>
-          <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar bg="light" variant="light">
+            <Navbar.Brand href="/">UMass ACM</Navbar.Brand>
             <Nav className="mr-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/sigs/icpc">Sigs</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <NavDropdown className="nav-item dropup" title="Sigs">
+                <NavDropdown.Item href="/sigs/icpc">ICPC</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/blockchain">Blockchain</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/design">Design</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/pm">Product Management</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/ml">Machine Learning</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/game_dev">Game Development</NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="/events">Events</Nav.Link>
+              <Nav.Link href="/Alumni">Alumni</Nav.Link>
             </Nav>
           </Navbar>
         </div>
