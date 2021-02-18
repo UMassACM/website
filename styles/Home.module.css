@@ -1,4 +1,4 @@
-.container {
+.container1 {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -16,14 +16,14 @@
   align-items: center;
 }
 
-.title a {
+.title1 a {
    color: #9a3030;
    text-decoration: none;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
+.title1 a:hover,
+.title1 a:focus,
+.title1 a:active {
   text-decoration: underline;
 }
 
@@ -31,13 +31,13 @@ label.red {
   color: #9a3030;
 }
 
-.title {
+.title1 {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
 
-.title,
+.title1,
 .description {
   text-align: center;
 }
