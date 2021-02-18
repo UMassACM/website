@@ -11,12 +11,10 @@
 }
 
 .heading2Xl {
-  margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   letter-spacing: -0.05rem;
-  margin: 1rem 0;
 }
 
 .headingXl {
@@ -25,6 +23,10 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+}
+.paragraphed {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .headingLg {
@@ -89,10 +91,15 @@
 
 .officerCard img {
   border-radius: 100%;
+  object-fit: cover;
 }
 
 .socialsFooter {
-  margin-top: 2rem;
+
+  flex-wrap: wrap-reverse;
+  text-align: center;
+}
+.secondFooter {
   flex-wrap: wrap-reverse;
   text-align: center;
 }

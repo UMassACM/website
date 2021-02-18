@@ -1,30 +1,29 @@
 {
     "name": "Product Management",
-    "description": "Come talk about machine learning, data mining, and related fields.\n We are a group interested in exploring the practical implications and theoretical underpinnings of machine learning. Participants of all skill levels are encouraged to attend our meetings and get involved!",
+    "description": "We are undergraduate, graduate, and PhD students in the College of Information and Computer Sciences who are passionate about the intersection of computer science, informatics, and business and are pursuing a career in product management. We are a student community looking to educate each other on early careers in product and learn more about being a great product manager. Our year-long mission includes: book clubs, case studies, resume swaps, mock interviews, product analysis/thinking seminars, and overall building PM skills necessary for success!",
     "officers": [
         {
             "name": "Dhruv Keyal",
             "title": "President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/MUigXBW.jpg"
         },
         {
             "name": "Disha Srivastava",
             "title": "Vice President",
-            "img": "https://i.imgur.com/dsuir23.jpg"
+            "img": "https://i.imgur.com/hJtfdnu.jpg"
         },
         {
             "name": "Preetham Syamala",
             "title": "Secretary",
-            "img": "https://i.imgur.com/dsuir23.jpg"
+            "img": "https://i.imgur.com/sVh87B2.jpg"
         },
         {
-            "name": "Maanas Pero",
+            "name": "Maanas Peri",
             "title": "Treasurer",
             "img": "https://i.imgur.com/dsuir23.jpg"
         }
     ],
     "contacts": {
-        "Discord": "https://discord.gg/EyqDyXj",
-        "Email": "umassacmml@gmail.com"
+        "slack": "https://discord.gg/EyqDyXj"
     }
 }

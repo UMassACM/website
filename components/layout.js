@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import Head from "next/head";
 import Footer from "./footer";
-
-
+import {
+  BrowserView,
+  MobileView,
+} from "react-device-detect";
+import utilStyles from "../styles/utils.module.css";
 
 import styles from "./layout.module.css";
 import { AnimatedSocialIcon } from "react-animated-social-icons";
@@ -37,50 +40,54 @@ export class GlobalLayout extends Component {
             />
           </Head>
           {children}
-          <Footer>
-            <AnimatedSocialIcon
-              brandName="linkedin"
-              url="http://linkedin.com/company/umass-acm/"
-              animation="float"
-              defaultColor="#9a3030"
-              hoverColor="black"
-              width="2.5em"
-              animationDuration={0.2}
-              style={{ padding: "5%" }}
-            />
-            <AnimatedSocialIcon
-              brandName="discord"
-              url="https://discord.gg/G5umPQa"
-              animation="float"
-              defaultColor="#9a3030"
-              hoverColor="black"
-              width="2.5em"
-              animationDuration={0.2}
-              style={{ padding: "5%" }}
-            />
-            <AnimatedSocialIcon
-              brandName="facebook"
-              url="https://www.facebook.com/groups/umassacm/"
-              animation="float"
-              defaultColor="#9a3030"
-              hoverColor="black"
-              width="2.5em"
-              animationDuration={0.2}
-              style={{ padding: "5%" }}
-            />
-            <AnimatedSocialIcon
-              brandName="instagram"
-              url="https://www.instagram.com/umass_acm/"
-              animation="float"
-              defaultColor="#9a3030"
-              hoverColor="black"
-              width="2.5em"
-              animationDuration={0.2}
-              style={{ padding: "5%" }}
-            />
-          </Footer>
+          <MobileView>
+
+            <center><h2 className={`${utilStyles.headingXl} ${utilStyles.umassColor}`}>ACM Socials</h2></center>
+            <Footer>
+              <AnimatedSocialIcon
+                brandName="linkedin"
+                url="http://linkedin.com/company/umass-acm/"
+                animation="float"
+                defaultColor="#9a3030"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+              <AnimatedSocialIcon
+                brandName="discord"
+                url="https://discord.gg/G5umPQa"
+                animation="float"
+                defaultColor="#9a3030"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+              <AnimatedSocialIcon
+                brandName="facebook"
+                url="https://www.facebook.com/groups/umassacm/"
+                animation="float"
+                defaultColor="#9a3030"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+              <AnimatedSocialIcon
+                brandName="instagram"
+                url="https://www.instagram.com/umass_acm/"
+                animation="float"
+                defaultColor="#9a3030"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+            </Footer>
+          </MobileView>
         </div>
-        <div>
+        
           <Navbar bg="light" variant="light">
             <Navbar.Brand href="/">UMass ACM</Navbar.Brand>
             <Nav className="mr-auto">
@@ -95,8 +102,59 @@ export class GlobalLayout extends Component {
               <Nav.Link href="/events">Events</Nav.Link>
               <Nav.Link href="/Alumni">Alumni</Nav.Link>
             </Nav>
+            <BrowserView>
+              <Nav>
+                <Navbar.Collapse className="justify-content-end mx-5 my-2">
+                  <AnimatedSocialIcon
+                    brandName="linkedin"
+                    url="http://linkedin.com/company/umass-acm/"
+                    animation="float"
+                    defaultColor="#9a3030"
+                    hoverColor="black"
+                    width="2.5em"
+                    animationDuration={0.2}
+                    style={{ padding: "5%" }}
+                  />
+                </Navbar.Collapse>
+                <Navbar.Collapse className="justify-content-end mx-5 my-2">
+                  <AnimatedSocialIcon
+                    brandName="discord"
+                    url="https://discord.gg/G5umPQa"
+                    animation="float"
+                    defaultColor="#9a3030"
+                    hoverColor="black"
+                    width="2.5em"
+                    animationDuration={0.2}
+                    style={{ padding: "5%" }}
+                  />
+                </Navbar.Collapse>
+                <Navbar.Collapse className="justify-content-end mx-5 my-2">
+                  <AnimatedSocialIcon
+                    brandName="facebook"
+                    url="https://www.facebook.com/groups/umassacm/"
+                    animation="float"
+                    defaultColor="#9a3030"
+                    hoverColor="black"
+                    width="2.5em"
+                    animationDuration={0.2}
+                    style={{ padding: "5%" }}
+                  />
+                </Navbar.Collapse>
+                <Navbar.Collapse className="justify-content-end mx-5 my-2 ">
+                  <AnimatedSocialIcon
+                    brandName="instagram"
+                    url="https://www.instagram.com/umass_acm/"
+                    animation="float"
+                    defaultColor="#9a3030"
+                    hoverColor="black"
+                    width="2.5em"
+                    animationDuration={0.2}
+                    style={{ padding: "5%" }}
+                  />
+                </Navbar.Collapse>
+              </Nav>
+            </BrowserView>
           </Navbar>
-        </div>
       </div>
     );
   }
