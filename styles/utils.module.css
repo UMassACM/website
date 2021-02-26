@@ -1,5 +1,5 @@
 .umassColor {
-  color: #9a3030;
+  color: #881c1c;
 }
 
 .blue {
@@ -75,8 +75,8 @@
 }
 
 .sig_card:hover {
-  color: #9a3030;
-  border-color: #9a3030;
+  color: #881c1c;
+  border-color: #881c1c;
 }
 
 .officerCard {
@@ -102,6 +102,11 @@
 .secondFooter {
   flex-wrap: wrap-reverse;
   text-align: center;
+  padding-bottom: 3em;
+}
+
+.sigTitle {
+  padding-top: 1em;
 }
 
 @media (max-width: 600px) {

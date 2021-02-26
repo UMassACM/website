@@ -22,6 +22,7 @@ export class GlobalLayout extends Component {
     const { children } = this.props;
     return (
       <div>
+        
         <div className="layout">
           <Head>
             <link rel="icon" href="/favicon.ico" />
@@ -39,59 +40,10 @@ export class GlobalLayout extends Component {
               content="width=device-width, initial-scale=1, shrink-to-fit=yes"
             />
           </Head>
-          {children}
-          <MobileView>
-
-            <center><h2 className={`${utilStyles.headingXl} ${utilStyles.umassColor}`}>ACM Socials</h2></center>
-            <Footer>
-              <AnimatedSocialIcon
-                brandName="linkedin"
-                url="http://linkedin.com/company/umass-acm/"
-                animation="float"
-                defaultColor="#9a3030"
-                hoverColor="black"
-                width="2.5em"
-                animationDuration={0.2}
-                style={{ padding: "5%" }}
-              />
-              <AnimatedSocialIcon
-                brandName="discord"
-                url="https://discord.gg/G5umPQa"
-                animation="float"
-                defaultColor="#9a3030"
-                hoverColor="black"
-                width="2.5em"
-                animationDuration={0.2}
-                style={{ padding: "5%" }}
-              />
-              <AnimatedSocialIcon
-                brandName="facebook"
-                url="https://www.facebook.com/groups/umassacm/"
-                animation="float"
-                defaultColor="#9a3030"
-                hoverColor="black"
-                width="2.5em"
-                animationDuration={0.2}
-                style={{ padding: "5%" }}
-              />
-              <AnimatedSocialIcon
-                brandName="instagram"
-                url="https://www.instagram.com/umass_acm/"
-                animation="float"
-                defaultColor="#9a3030"
-                hoverColor="black"
-                width="2.5em"
-                animationDuration={0.2}
-                style={{ padding: "5%" }}
-              />
-            </Footer>
-          </MobileView>
-        </div>
-        
           <Navbar bg="light" variant="light">
             <Navbar.Brand href="/">UMass ACM</Navbar.Brand>
             <Nav className="mr-auto">
-              <NavDropdown className="nav-item dropup" title="Sigs">
+              <NavDropdown className="nav-item dropdown" title="Sigs">
                 <NavDropdown.Item href="/sigs/icpc">ICPC</NavDropdown.Item>
                 <NavDropdown.Item href="/sigs/blockchain">Blockchain</NavDropdown.Item>
                 <NavDropdown.Item href="/sigs/design">Design</NavDropdown.Item>
@@ -99,7 +51,7 @@ export class GlobalLayout extends Component {
                 <NavDropdown.Item href="/sigs/ml">Machine Learning</NavDropdown.Item>
                 <NavDropdown.Item href="/sigs/game_dev">Game Development</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="/events">Events</Nav.Link>
+              <Nav.Link href="/officers">Team</Nav.Link>
               <Nav.Link href="/Alumni">Alumni</Nav.Link>
             </Nav>
             <BrowserView>
@@ -109,7 +61,7 @@ export class GlobalLayout extends Component {
                     brandName="linkedin"
                     url="http://linkedin.com/company/umass-acm/"
                     animation="float"
-                    defaultColor="#9a3030"
+                    defaultColor="#881c1c"
                     hoverColor="black"
                     width="2.5em"
                     animationDuration={0.2}
@@ -121,7 +73,7 @@ export class GlobalLayout extends Component {
                     brandName="discord"
                     url="https://discord.gg/G5umPQa"
                     animation="float"
-                    defaultColor="#9a3030"
+                    defaultColor="#881c1c"
                     hoverColor="black"
                     width="2.5em"
                     animationDuration={0.2}
@@ -133,7 +85,7 @@ export class GlobalLayout extends Component {
                     brandName="facebook"
                     url="https://www.facebook.com/groups/umassacm/"
                     animation="float"
-                    defaultColor="#9a3030"
+                    defaultColor="#881c1c"
                     hoverColor="black"
                     width="2.5em"
                     animationDuration={0.2}
@@ -145,7 +97,7 @@ export class GlobalLayout extends Component {
                     brandName="instagram"
                     url="https://www.instagram.com/umass_acm/"
                     animation="float"
-                    defaultColor="#9a3030"
+                    defaultColor="#881c1c"
                     hoverColor="black"
                     width="2.5em"
                     animationDuration={0.2}
@@ -155,6 +107,58 @@ export class GlobalLayout extends Component {
               </Nav>
             </BrowserView>
           </Navbar>
+          {children}
+          <div>
+          <MobileView>
+
+            <center><h2 className={`${utilStyles.headingXl} ${utilStyles.umassColor}`}>ACM Socials</h2></center>
+            <Footer>
+              <AnimatedSocialIcon
+                brandName="linkedin"
+                url="http://linkedin.com/company/umass-acm/"
+                animation="float"
+                defaultColor="#881c1c"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+              <AnimatedSocialIcon
+                brandName="discord"
+                url="https://discord.gg/G5umPQa"
+                animation="float"
+                defaultColor="#881c1c"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+              <AnimatedSocialIcon
+                brandName="facebook"
+                url="https://www.facebook.com/groups/umassacm/"
+                animation="float"
+                defaultColor="#881c1c"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+              <AnimatedSocialIcon
+                brandName="instagram"
+                url="https://www.instagram.com/umass_acm/"
+                animation="float"
+                defaultColor="#881c1c"
+                hoverColor="black"
+                width="2.5em"
+                animationDuration={0.2}
+                style={{ padding: "5%" }}
+              />
+            </Footer>
+          </MobileView>
+          </div>
+        </div>
+        
+          
       </div>
     );
   }

@@ -17,7 +17,7 @@
 }
 
 .title1 a {
-   color: #9a3030;
+   color: #881c1c;
    text-decoration: none;
 }
 
@@ -28,7 +28,7 @@
 }
 
 label.red {
-  color: #9a3030;
+  color: #881c1c;
 }
 
 .title1 {
@@ -43,7 +43,7 @@ label.red {
 }
 
 .subtitle a {
-  color: #9a3030;
+  color: #881c1c;
    text-decoration: none;
 }
 
@@ -54,7 +54,7 @@ label.red {
 }
 
 label.red {
-  color: #9a3030;
+  color: #881c1c;
 }
 
 .subtitle {
@@ -106,8 +106,8 @@ label.red {
 .card:hover,
 .card:focus,
 .card:active {
-  color: #9a3030;
-  border-color: #9a3030;
+  color: #881c1c;
+  border-color: #881c1c;
 }
 
 .card {

@@ -29,12 +29,6 @@ export async function getStaticProps({ params }) {
   };
 }
 
-function determineSocial(key,value) {
-  if(key=="email") {
-    return 
-  }
-}
-
 export default function SIGPage({ sigData }) {
   return (
     <div>
@@ -42,28 +36,29 @@ export default function SIGPage({ sigData }) {
       <Head>
         <title>{sigData.name}</title>
       </Head>
-      <h1 className={`${utilStyles.heading2Xl} ${utilStyles.umassColor}`}>{sigData.name}</h1>
+      <h1 className={`${utilStyles.heading2Xl} ${utilStyles.sigTitle} ${utilStyles.centeredText} ${utilStyles.umassColor}`}>{sigData.name}</h1>
       <div className={`${utilStyles.paragraphed}`}>
       <article className={utilStyles.headingLg}>{sigData.description}</article>
       </div>
       <h2 className={utilStyles.headingXl}>Officers</h2>
       <Card.Group className={utilStyles.cardContainer}>
         {sigData.officers.map(({ img, name, title }) => (
-          <OfficerCard name={name} title={title} img={img} />
+          <OfficerCard key={name} name={name} title={title} img={img} />
         ))}
       </Card.Group>
 
-      <h2 className={utilStyles.headingXl}>Sig Contact:</h2>
+      <h2 className={utilStyles.headingXl} >Sig Contact:</h2>
     </Layout>
     <SecondFooter>
     {Object.entries(sigData.contacts).map(([key, value]) => {
       if(key=="email") {
         return (
-          <a>{value}</a>
+          <a key={key}>{value}</a>
         );
       } else {
         return (
           <AnimatedSocialIcon
+            key={key}
             brandName={key}
             url={value}
             animation="float"

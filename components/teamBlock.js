@@ -10,7 +10,7 @@ export default function TeamBlock({ team, officers }) {
       <h2 className={`${styles.headingXl} ${styles.centeredText}`}>{team}</h2>
       <Card.Group className={styles.cardContainer}>
         {officers.map(({ name, title, img }) => (
-          <OfficerCard name={name} title={title} img={img} />
+          <OfficerCard key={name} name={name} title={title} img={img} />
         ))}
       </Card.Group>
     </div>
