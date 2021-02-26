@@ -1,0 +1,24 @@
+{
+    "officers": [
+        {
+            "name": "Dhruv Keyal",
+            "title": "President",
+            "img": "https://i.imgur.com/MUigXBW.jpg"
+        },
+        {
+            "name": "Disha Srivastava",
+            "title": "Vice President",
+            "img": "https://i.imgur.com/hJtfdnu.jpg"
+        },
+        {
+            "name": "Preetham Syamala",
+            "title": "Secretary",
+            "img": "https://i.imgur.com/sVh87B2.jpg"
+        },
+        {
+            "name": "Maanas Peri",
+            "title": "Treasurer",
+            "img": "https://i.imgur.com/gsGk4vi.jpg"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "officers": [
+        {
+            "name": "Andrew Dunhom",
+            "title": "Head of Marketing",
+            "img": "https://i.imgur.com/uFmjFcw.jpg"
+        },
+        {
+            "name": "Arsh Arora",
+            "title": "Marketing Team",
+            "img": "https://i.imgur.com/0R60EdG.png"
+        },
+        {
+            "name": "Sneha Pullanoor",
+            "title": "Marketing Team",
+            "img": "https://i.imgur.com/dMIfSsm.jpg"
+        },
+        {
+            "name": "Nitya Aryasomayajula",
+            "title": "Marketing Team",
+            "img": "https://i.imgur.com/ZOwzEIu.png"
+        }
+    ]
+}

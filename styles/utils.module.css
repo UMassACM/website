@@ -1,0 +1,118 @@
+.umassColor {
+  color: #881c1c;
+}
+
+.blue {
+  color: rgb(47, 104, 143);
+}
+
+.centeredText {
+  text-align: center;
+}
+
+.heading2Xl {
+  line-height: 1.15;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+.paragraphed {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.markdownContent {
+  flex-wrap: wrap;
+  overflow-x: scroll;
+}
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  color: inherit;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sig_card {
+  margin: 1rem;
+  padding: 1.5rem;
+  color: rgb(89, 102, 116);
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: color 0.07s ease, border-color 0.15s ease;
+}
+
+.sig_card:hover {
+  color: #881c1c;
+  border-color: #881c1c;
+}
+
+.officerCard {
+  margin: 1.5rem;
+  padding: 1.3rem;
+  color: rgb(89, 102, 116);
+  flex-direction: row;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition: color 0.07s ease, border-color 0.15s ease;
+}
+
+.officerCard img {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.socialsFooter {
+
+  flex-wrap: wrap-reverse;
+  text-align: center;
+}
+.secondFooter {
+  flex-wrap: wrap-reverse;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.sigTitle {
+  padding-top: 1em;
+}
+
+@media (max-width: 600px) {
+  .cardContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column; /*this property */
+  }
+}

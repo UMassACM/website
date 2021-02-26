@@ -1,0 +1,24 @@
+{
+    "name": "Game Development",
+    "description": "Come talk about Game Development",
+    "officers": [
+        {
+            "name": "Adam Powell",
+            "title": "Co-Chair",
+            "img": "https://i.imgur.com/cFAMKal.png"
+        },
+        {
+            "name": "Hiren Visawanathen",
+            "title": "Co-Chair",
+            "img": "https://i.imgur.com/cFAMKal.png"
+        },
+        {
+            "name": "Vinay",
+            "title": "Co-Chair",
+            "img": "https://i.imgur.com/dcdwR5Z.png"
+        }
+    ],
+    "contacts": {
+        "discord": "https://discord.gg/aZreWub"
+    }
+}

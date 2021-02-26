@@ -1,0 +1,13 @@
+{
+    "officers": [
+        {
+            "name": "Sattwik Das",
+            "title": "Chairman",
+            "img": "https://i.imgur.com/soOoiK9.png"
+        },{
+            "name": "Supreetha Bangalore Somasundar",
+            "title": "Vice Chairman",
+            "img": "https://i.imgur.com/aLH3wbd.jpg"
+        }
+    ]
+}
