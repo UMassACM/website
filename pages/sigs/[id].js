@@ -41,7 +41,7 @@ export default function SIGPage({ sigData }) {
       <article className={utilStyles.headingLg}>{sigData.description}</article>
       </div>
       <h2 className={utilStyles.headingXl}>Officers</h2>
-      <Card.Group className={utilStyles.cardContainer}>
+      <Card.Group className={`${utilStyles.cardContainer}`}>
         {sigData.officers.map(({ img, name, title }) => (
           <OfficerCard key={name} name={name} title={title} img={img} />
         ))}
