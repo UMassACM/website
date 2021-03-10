@@ -1,20 +1,29 @@
 {
     "name": "Machine Learning",
-    "description": "Come talk about machine learning, data mining, and related fields.\n We are a group interested in exploring the practical implications and theoretical underpinnings of machine learning. Participants of all skill levels are encouraged to attend our meetings and get involved!",
+    "description": "The UMass ACM Machine Learning Club is one of the largest and most popular ML clubs on campus. We are a group interested in exploring the practical applications and theoretical underpinnings of machine learning as well as it's related fields (pretty cool, right?). Students from all experience levels can come to lectures and workshops every week, plus a guest speaker every once in a while (don't worry, we also host game nights every week to blow off some steam and chill out). This year we plan to host several events to connect with machine learning clubs from all around the world as well as organize events for beginners who join us for the first time this year to help them get a taste of what machine learning actually looks like. Oh and there's a semester long project so you can actually use ML -- and we give away GPUs if you're into that.",
     "officers": [
         {
             "name": "Cooper Sigrist",
             "title": "President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/8OHd4dl.jpg"
         },
         {
             "name": "Dev Gupta",
             "title": "Vice President",
-            "img": "https://i.imgur.com/prnQkc6.jpeg"
+            "img": "https://i.imgur.com/lyZrN1l.jpg"
+        },
+        {
+            "name": "Natasha Akali",
+            "title": "Secretary",
+            "img": "https://i.imgur.com/le1iEYc.jpg"
+        },{
+            "name": "Himanshu Padnani",
+            "title": "Event Co-ordinator",
+            "img": "https://i.imgur.com/hLJPFEy.jpg"
         }
     ],
     "contacts": {
-        "Discord": "https://discord.gg/EyqDyXj",
-        "Email": "umassacmml@gmail.com"
+        "discord": "https://discord.gg/EyqDyXj",
+        "email": "umassacmml@gmail.com"
     }
 }

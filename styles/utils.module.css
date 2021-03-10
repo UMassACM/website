@@ -1,5 +1,5 @@
 .umassColor {
-  color: #9a3030;
+  color: #881c1c;
 }
 
 .blue {
@@ -11,12 +11,10 @@
 }
 
 .heading2Xl {
-  margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
   letter-spacing: -0.05rem;
-  margin: 1rem 0;
 }
 
 .headingXl {
@@ -25,6 +23,10 @@
   font-weight: 800;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
+}
+.paragraphed {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .headingLg {
@@ -73,15 +75,24 @@
 }
 
 .sig_card:hover {
-  color: #9a3030;
-  border-color: #9a3030;
+  color: #881c1c;
+  border-color: #881c1c;
 }
 
 .officerCard {
   margin: 1.5rem;
   padding: 1.3rem;
   color: rgb(89, 102, 116);
-  flex-direction: row;
+  
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
 
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   transition: color 0.07s ease, border-color 0.15s ease;
@@ -89,12 +100,22 @@
 
 .officerCard img {
   border-radius: 100%;
+  object-fit: cover;
 }
 
 .socialsFooter {
-  margin-top: 2rem;
+
   flex-wrap: wrap-reverse;
   text-align: center;
+}
+.secondFooter {
+  flex-wrap: wrap-reverse;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+.sigTitle {
+  padding-top: 1em;
 }
 
 @media (max-width: 600px) {

@@ -1,14 +1,18 @@
 {
     "name": "ICPC",
-    "description": "We are a group of students who practice and compete in the ICPC and other competitive programming competitions!",
+    "description": "The UMass ACM ICPC aims to prepare students in the realm of competitive programming. We hold coding contests (cool prizes at stake!), tech-talks, and coding jams from time to time. This semester, we have a new endeavor which is to form teams to represent UMass to compete in the prestigious Regionals and Global ICPC.",
     "officers": [
         {
             "name": "Sattwik Das",
-            "title": "President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "title": "Chairman",
+            "img": "https://i.imgur.com/soOoiK9.png"
+        },{
+            "name": "Supreetha Bangalore Somasundar",
+            "title": "Vice Chairman",
+            "img": "https://i.imgur.com/aLH3wbd.jpg"
         }
     ],
     "contacts": {
-        "Discord": "https://discord.gg/EyqDyXj"
+        "discord": "https://discord.gg/hpgAHhX"
     }
 }

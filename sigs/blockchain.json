@@ -5,26 +5,25 @@
         {
             "name": "Daniel Cline",
             "title": "President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/TgsVuE1.png"
         },
         {
             "name": "Satvik Birudavolu",
             "title": "President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/3fw2ycr.png"
         },
         {
             "name": "Apurv Shah",
             "title": "Vice President",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/yHb3GTE.png"
         },
         {
             "name": "Kalyan Maddieni",
             "title": "Secretary",
-            "img": "https://i.imgur.com/VyQK36D.jpg"
+            "img": "https://i.imgur.com/yUL2xuP.png"
         }
     ],
     "contacts": {
-        "Discord": "https://discord.gg/EyqDyXj",
-        "Email": "umassacmml@gmail.com"
+        "discord": "https://discord.gg/23UjbGu"
     }
 }

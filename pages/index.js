@@ -20,14 +20,14 @@ export async function getStaticProps() {
 
 export default function Home({ allSigsData }) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container1}>
       <Head>
         <title>UMass ACM</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
+        <h1 className={styles.title1}>
           <a>UMass</a> ACM
         </h1>
 

@@ -10,7 +10,7 @@ export default function OfficerCard({ name, title, img, contacts }) {
 
   return (
     <Card
-      key={img}
+      bg='primary'
       className={`${styles.officerCard} ${styles.invisibleParent}`}
     >
       <Image

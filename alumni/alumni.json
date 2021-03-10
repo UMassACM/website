@@ -1,0 +1,19 @@
+{
+    "alumni": [
+        {
+            "name": "Shardool Pathak",
+            "title": "Class of 2020",
+            "img": "https://i.imgur.com/UqzDbXD.png"
+        },
+        {
+            "name": "Ayush Khandelwal",
+            "title": "Class of 2020",
+            "img": "https://i.imgur.com/yAK1qtC.png"
+        },
+        {
+            "name": "Alexander Vukovic",
+            "title": "Class of 2020",
+            "img": "https://i.imgur.com/XQZk0Tv.png"
+        }
+    ]
+}

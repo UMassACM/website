@@ -7,3 +7,11 @@ export default function Footer({children}) {
         </footer>
     )
 }
+
+export function SecondFooter({children}) {
+    return (
+        <footer className={styles.secondFooter}>
+            {children}
+        </footer>
+    )
+}
