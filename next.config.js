@@ -1,5 +1,5 @@
 module.exports = {
-  basePath: '',
+  basePath: '/home',
   images: {
     domains: ["i.imgur.com"]
   }
