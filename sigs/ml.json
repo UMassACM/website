@@ -8,9 +8,9 @@
             "img": "https://i.imgur.com/8OHd4dl.jpg"
         },
         {
-            "name": "Dev Gupta",
+            "name": "Dev Ahuja",
             "title": "Vice President",
-            "img": "https://i.imgur.com/lyZrN1l.jpg"
+            "img": "https://i.imgur.com/lyZrN1l.jpg?1"
         },
         {
             "name": "Natasha Akali",
@@ -20,6 +20,10 @@
             "name": "Himanshu Padnani",
             "title": "Event Co-ordinator",
             "img": "https://i.imgur.com/hLJPFEy.jpg"
+        },{
+            "name": "Sawyer Ji",
+            "title": "Treasurer",
+            "img": "https://i.imgur.com/sMiGBgd.jpg"
         }
     ],
     "contacts": {

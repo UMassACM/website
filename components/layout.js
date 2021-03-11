@@ -44,12 +44,12 @@ export class GlobalLayout extends Component {
             <Navbar.Brand href="/">UMass ACM</Navbar.Brand>
             <Nav className="mr-auto">
               <NavDropdown className="nav-item dropdown" title="Sigs">
-                <NavDropdown.Item href="/sigs/icpc">ICPC</NavDropdown.Item>
-                <NavDropdown.Item href="/sigs/blockchain">Blockchain</NavDropdown.Item>
-                <NavDropdown.Item href="/sigs/design">Design</NavDropdown.Item>
-                <NavDropdown.Item href="/sigs/pm">Product Management</NavDropdown.Item>
-                <NavDropdown.Item href="/sigs/ml">Machine Learning</NavDropdown.Item>
-                <NavDropdown.Item href="/sigs/game_dev">Game Development</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/ICPC">ICPC</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/Blockchain">Blockchain</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/Design">Design</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/Product-Management">Product Management</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/ML">Machine Learning</NavDropdown.Item>
+                <NavDropdown.Item href="/sigs/Game-Development">Game Development</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/officers">Team</Nav.Link>
               <Nav.Link href="/Alumni">Alumni</Nav.Link>

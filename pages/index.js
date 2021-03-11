@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import { ConsoleView } from "react-device-detect";
 
 import SIGCard from "../components/sigCard";
 
@@ -9,8 +10,15 @@ import styles from "../styles/Home.module.css";
 import utilStyles from "../styles/utils.module.css";
 
 export async function getStaticProps() {
-  const allSigsData = getAllSigsData();
-
+  let tempData = await getAllSigsData();
+  
+  let tempArr = []
+  tempData.forEach(element => {
+    if(!(element.id=="Executive" ||element.id=="Marketing"||element.id=="Web-Dev" )) {
+      tempArr.push(element);
+    }
+  });
+  const allSigsData = tempArr;
   return {
     props: {
       allSigsData,
@@ -19,6 +27,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allSigsData }) {
+  console.log(allSigsData);
   return (
     <div className={styles.container1}>
       <Head>

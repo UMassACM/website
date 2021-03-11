@@ -1,0 +1,14 @@
+{
+    "officers": [
+        {
+            "name": "Saakshaat Singh",
+            "title": "Chair",
+            "img": "https://i.imgur.com/YpCX4Aw.png"
+        },
+        {
+            "name": "Benjamin Xu",
+            "title": "Secretary",
+            "img": "https://i.imgur.com/MmE3RB8.png"
+        }
+    ]
+}
