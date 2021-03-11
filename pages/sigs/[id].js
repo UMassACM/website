@@ -12,7 +12,10 @@ import { AnimatedSocialIcon } from "react-animated-social-icons";
 import {SecondFooter} from "../../components/footer";
 
 export async function getStaticPaths() {
-  const paths = getAllSigsIds();
+  const tempPath = getAllSigsIds();
+  const paths = tempPath.filter((element)=>{
+    return !(element.params.id == 'Executive' || element.params.id == 'Marketing' || element.params.id == 'Web-Dev') 
+  });
   return {
     paths,
     fallback: false,
@@ -21,7 +24,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const sigData = await getSigData(params.id);
-
+ 
   return {
     props: {
       sigData,
